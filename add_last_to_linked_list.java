@@ -15,7 +15,6 @@ public class Main{
             Node temp=new Node();
             temp.data=val;
             temp.next=null;
-            size++;
             if(size==0){
             head=tail=temp;
             }
@@ -23,6 +22,7 @@ public class Main{
             tail.next=temp;
             tail=temp;
          } 
+            size++;
         }
     }
 }
